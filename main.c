@@ -51,7 +51,7 @@ int main(void){
                 scanf("%d", &x);
                 x = Get_Patient_Index(patientPtrStruct, pSize, x);
                 if(x == -1){
-                    printf("[SYS] You have entered an invalid ID");
+                    printf("[SYS] You have entered an invalid ID\n");
                     user_Interface();
                 }
                 else
